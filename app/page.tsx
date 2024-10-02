@@ -1,4 +1,10 @@
-/** Add your relevant code here for the issue to reproduce */
+import { Client } from "./Client"
+
 export default function Home() {
-  return null;
+  return (
+    <div>
+      <h1>Demo</h1>
+      <Client />
+    </div>
+  )
 }
