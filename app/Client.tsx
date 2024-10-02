@@ -22,6 +22,10 @@ export function Client() {
       >
         Call redirect action
       </button>
+
+      <form action={doRedirect}>
+        <button type="submit">Redirect from inside form</button>
+      </form>
     </div>
   )
 }
